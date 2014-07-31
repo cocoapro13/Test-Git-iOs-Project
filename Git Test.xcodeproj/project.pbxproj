@@ -21,6 +21,7 @@
 		AB60B9491989DF3E00C7CF6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB60B92B1989DF3E00C7CF6B /* UIKit.framework */; };
 		AB60B9511989DF3E00C7CF6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB60B94F1989DF3E00C7CF6B /* InfoPlist.strings */; };
 		AB60B9531989DF3E00C7CF6B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB60B9521989DF3E00C7CF6B /* Git_TestTests.m */; };
+		AB60B9611989E20400C7CF6B /* S597Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AB60B9601989E20400C7CF6B /* S597Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AB60B94E1989DF3E00C7CF6B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		AB60B9501989DF3E00C7CF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB60B9521989DF3E00C7CF6B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AB60B95F1989E20400C7CF6B /* S597Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S597Test.h; path = ../S597Test.h; sourceTree = "<group>"; };
+		AB60B9601989E20400C7CF6B /* S597Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = S597Test.m; path = ../S597Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		AB60B92D1989DF3E00C7CF6B /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				AB60B95F1989E20400C7CF6B /* S597Test.h */,
+				AB60B9601989E20400C7CF6B /* S597Test.m */,
 				AB60B9361989DF3E00C7CF6B /* S597AppDelegate.h */,
 				AB60B9371989DF3E00C7CF6B /* S597AppDelegate.m */,
 				AB60B9391989DF3E00C7CF6B /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB60B9381989DF3E00C7CF6B /* S597AppDelegate.m in Sources */,
+				AB60B9611989E20400C7CF6B /* S597Test.m in Sources */,
 				AB60B9341989DF3E00C7CF6B /* main.m in Sources */,
 				AB60B93E1989DF3E00C7CF6B /* S597ViewController.m in Sources */,
 			);
